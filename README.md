@@ -165,8 +165,10 @@ class Foo
 
 ### 4.2. Properties
 
-This guide intentionally avoids any recommendation regarding the use of
-`$StudlyCaps`, `$camelCase`, or `$under_score` property names.
+The fig standrad guide intentionally avoids any recommendation regarding the use of
+`$StudlyCaps`, `$camelCase`, or `$under_score` property names. However, **I am choosing
+to use `$under_score` because Linux is case sensitive and this allows me to avoid 
+conflicts that might arise from using `$StudlyCaps` or `$camelCase`.**
 
 Whatever naming convention is used SHOULD be applied consistently within a
 reasonable scope. That scope may be vendor-level, package-level, class-level,
